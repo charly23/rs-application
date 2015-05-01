@@ -1,0 +1,113 @@
+div.wp-builder-content{
+    border-bottom: 1px solid #EDEDED;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.WPBuilder-Slider {
+   height: 105px;
+   position: relative;
+   width: 100%; 
+}
+
+.WPBuilder-Slider .wrapper {
+  margin: 0 40px; /* .WPBuilder-Slider width - (.wrapper margin-left + .wrapper margin-right) */
+  min-height: 10em;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  width: 65%;
+  
+}
+
+.WPBuilder-Slider ul a img {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.WPBuilder-Slider .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.WPBuilder-Slider ul li {
+   display: block;
+   float: left;
+   padding: 33px 9px 10px 10px;
+}
+
+.WPBuilder-Slider ul li a img {
+   display:block;
+}
+
+.WPBuilder-Slider .arrow {
+  display: block;
+  height: 36px;
+  width: 37px;
+  background: url(http://jqueryfordesigners.com/demo/images/arrow.png) no-repeat 0 0;
+  text-indent: -999px;
+  position: absolute;
+  top: 37px;
+  cursor: pointer;
+}
+
+.WPBuilder-Slider .forward {
+  background-position: 0 0;
+  right: 0;
+}
+
+.WPBuilder-Slider .back {
+  background-position: 0 -72px;
+  left: 0;
+}
+
+.WPBuilder-Slider .forward:hover {
+  background-position: 0 -36px;
+}
+
+.WPBuilder-Slider .back:hover {
+  background-position: 0 -108px;
+}
+
+#nextbot{
+  margin-top: 140px;
+}
+
+#prevbot{
+  margin-top: 140px;
+}
+
+.WPBuilder-Slider .forward {
+  background-position: 0 0;
+  right: 0;
+}
+
+.WPBuilder-Slider .back {
+  background-position: 0 -72px;
+  left: 0;
+}
+
+.WPBuilder-Slider .forward:hover {
+  background-position: 0 -36px;
+}
+
+.WPBuilder-Slider .back:hover {
+  background-position: 0 -108px;
+}
+
+#nextbot{
+margin-top: 140px;
+
+}
+#prevbot{
+margin-top: 140px;
+
+}
